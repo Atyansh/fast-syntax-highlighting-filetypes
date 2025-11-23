@@ -11,7 +11,10 @@ When you type a command like `cat myfile.txt`, this plugin colors the filename b
 - Uses your existing `LS_COLORS` configuration
 - Works alongside fast-syntax-highlighting
 - Handles special file types: setuid, setgid, sticky, orphaned symlinks
-- Supports quoted paths and escaped characters
+- Supports quoted paths (`"..."`, `'...'`, `$'...'`) and backslash escapes (`foo\ bar`)
+- Supports `--option=/path/to/file` patterns
+- Supports 24-bit true color and all ANSI attributes (bold, dim, italic, etc.)
+- Cross-platform: works on Linux and macOS
 
 ## Installation
 
